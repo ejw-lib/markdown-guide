@@ -10,9 +10,11 @@
 2. Item 2
 3. Item 3
 
-*Item 1
-*Item 2
-*Item 3
+* Item 1
+* Item 2
+* Item 3
 
-*Bold*
--Bold-
+**Bold**
+<br>
+__Bold__
+<br>
