@@ -90,7 +90,7 @@ If this is a project that is a webapp then maybe include some images of what it 
 1.  When doing the analysis, it is also nice to add some images of graphs.  
 1.  If you want to make it even more visually pleasing then you can use a website like [Canva](https://www.canva.com/web-banners/templates/) to make banners for the top of your readme.  There are some free options.  
     * Here is an example of a Canva web banner.  It took about 2 minutes to make this:  
-![Header Image](./images/readme_images/banner-(Minimalist%20Marble).png)  
+![Header Image](./images/banner-(Minimalist%20Marble).png)  
 
 1.  The syntax that we are using is called 'Markdown'.  There can be some syntax differences between web services that use it, but in general, it is fairly similar.  Below are some guides that will help you.   
 <br>
