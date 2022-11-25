@@ -5,137 +5,114 @@
 
 <br>
 
-## Overview
-<hr>  
+## Overview  
+Having a nice README.md file is important for several reasons.  
+1.  The README is the first content a visitor will see.  Descriptions and purposes of the repository should be simple enough that anyone can understand it's purpose.  This needs to be brief.  Often people write very long introductions but instead, provide a summary and put additional details further down in the readme.  
+2.  A readme with a nice introduction and maybe an image will standout as being very professional and indicates that you have good communication and documentation skills.  
+3.  Your readme also acts as a checkpoint - what other skills would you like to showcase.  This can influence your next personal project choice.  
 
-This repo has resources and examples for making a nice project or repository README.md.  
+Here is a template that I like.  I think the initial parts are nice but it is probably too detailed for our homework activities - [Link](https://github.com/sfbrigade/data-science-wg/blob/master/dswg_project_resources/Project-README-template.md).  
 
+The below example is something more appropriate for a large project.  The goal is to make the readme an aid that helps others to:
+* Quickly understand your repo's purpose - so be brief.
+* Have just enough information to run the project
+* Know what technologies are being used 
+
+I suggest having a `title`, `description`, `technologies`, and any `additional analysis` for the homeworks.  For projects, you might want to add sections about `contributors`, `data source`, `installation`, and `important documents`.  
+
+<br>
+<br>
+  
+<font color=green>**Here is a sample template:**</font>  
+***  
+<br>
+
+# Homework or Project Name
+### Subtitle if needed  
+<br>
+
+A description that is only a couple sentences long - a short paragraph.  Analysis of four drug compounds effects on tumor size by using pandas dataframes and the matplotlib graphing library.  Results showed that Captamulin had a significant and greater impact on tumor size after 7 weeks relative to a control and competitor brands.  
 <br>  
 
+## Methods Used  
+Central Tendencies, Boxplots, T-tests  
+<br>
+
+## Technologies
+Python, Matplotlib, PostgreSQL  
+<br>
+
+## Contributors 
+
+Include this section if this was done as a group project; otherwise, omit this section.  
+<br>      
+
+## Data Source
+
+Include original source if it is a real dataset or remove origin comment and just include local repo location:  "Data found in `images/data.csv`".  
+<br>
+## Installation
+Code was tested using Python 3.8.  The environment also needs pandas and matplotlib. The environment was setup as follows:
+
+```bash
+conda create -n envpy38 python=3.8 anaconda
+source activate envpy38
+jupyter notebook
+```
+If environment does not include pandas or matplotlib then install the following from terminal:
+```bash
+conda install pandas
+conda install matplotlib
+```  
+<br>
+
+## Additional Analysis  (or Demo-Preview)
+Good location to add in a couple images and write some conclusions.  
+
+If this is a project that is a webapp then maybe include some images of what it does as a demo-preview.  
+<br>
+
+## Featured Notebooks/Analysis/Deliverables
+|Document Title    |  Purpose   | 
+|---------|-----------------|
+|data_preparation.py  | Data retrieval and cleaning    |
+|data_analysis.py |  Analysis - plotting and statistical tests    |  
+| report.md |  Findings, suggestions, and future work.
+
+***  
+<font color=green>**End of template**</font>  
+<br>
+<br>
+
+## Additional Notes:
+
+1.  You do not need to include all the sections above.  I suggest having a title, description, technologies, and any additional analysis for the homeworks.  The other parts are probably more applicable to projects.  There are not set rules for this.
+1.  When doing the analysis, it is also nice to add some images of graphs.  
+1.  If you want to make it even more visually pleasing then you can use a website like [Canva](https://www.canva.com/web-banners/templates/) to make banners for the top of your readme.  There are some free options.  
+    * Here is an example of a Canva web banner.  It took about 2 minutes to make this:  
+![Header Image](./images/readme_images/banner-(Minimalist%20Marble).png)  
+
+1.  The syntax that we are using is called 'Markdown'.  There can be some syntax differences between web services that use it, but in general, it is fairly similar.  Below are some guides that will help you.   
+<br>
+
+
+## Resources  
+
+***
 ## Contents  
 
-*  Great Markdown Resource - [Github Guide](
-https://guides.github.com/features/mastering-markdown/ )
+Great Markdown Resource - [Github Guide](https://guides.github.com/features/mastering-markdown/ )
 
-*  Template for Readme's
-provided by [PurpleBooth](https://gist.github.com/PurpleBooth)  
+Template for Readme's provided by [PurpleBooth](https://gist.github.com/PurpleBooth)  
 
-<br>
+[README.md Template](https://www.makeareadme.com/)   
 
-## Example Template (large projects)  
-<hr>
-<hr>
+[GitHub Markdown Syntax Guide](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
-<br>
-<br>
+[GitLab Markdown Syntax Guide](https://about.gitlab.com/handbook/markdown-guide/)
 
-# Project Title
+[Jupyter Notebook Markdown Syntax Guide](https://ingeh.medium.com/markdown-for-jupyter-notebooks-cheatsheet-386c05aeebed)
 
-One Paragraph of project description goes here
+[Ornamental Banners](https://www.canva.com/web-banners/templates/)
 
-<br>
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-<br>
-
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-<br>
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-<br>
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-<br>
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-<br>
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-<br>
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-<br>
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-<br>
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-<br>
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-<br>
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-<br>
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-<br>
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+[Open source images](https://unsplash.com/)
